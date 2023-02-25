@@ -1,0 +1,59 @@
+.App{
+  width: 100%;
+
+}
+
+.counter{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.count{
+  font-size: 5rem;
+  border: 1px solid hsla(0, 87%, 50%, 0.3);
+  box-shadow: -3px 0 10px 0 rgba(0,0,0,.3);
+  padding: 1rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.controller{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem
+}
+.controller > button{
+  width: 3rem;
+  height: 3rem;
+}
+
+.mul > input{
+height: 3rem;
+margin: 0 1rem;
+width: 5rem;
+font-size: 1.2rem;
+border-radius: 10%;
+
+}
+.mul button{
+  height: 3rem;
+  margin: 0 1rem;
+  border-radius: 10%;
+
+  width: 3rem;
+}
+button:nth-child(4) {
+  height: 3rem;
+  margin: 0 1rem;
+  border-radius: 10%;
+  font-size: 1.6rem;
+  width: 6rem;
+}
+.amount{
+  text-align: center;
+}
